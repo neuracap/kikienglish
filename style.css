@@ -122,11 +122,11 @@ nav {
   align-items: center;
 }
 
-.logo {
-  font-family: var(--font-heading);
-  font-size: 2rem;
-  font-weight: 700;
-  color: var(--accent-color);
+.logo-img {
+  height: 60px;
+  /* Adjust based on navbar height */
+  width: auto;
+  object-fit: contain;
 }
 
 .nav-links a {
